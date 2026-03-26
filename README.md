@@ -175,8 +175,8 @@ h1{
 
 7. List
    is a fundamental part of HTML and CSS that allows you to create structured and organized content on web pages. Lists are used to group related items together, making it easier for users to read and understand the information presented.
-- list-style-type: "disc", "circle", "square", "decimal", "lower-alpha", "upper-alpha"
-- list-style-position: "inside", "outside"
+     - list-style-type: "disc", "circle", "square", "decimal", "lower-alpha", "upper-alpha"
+     - list-style-position: "inside", "outside"
 
 8. Units
      are used in CSS to specify the size, length, or distance of various properties. They help define the dimensions and spacing of elements on a web page. Some common CSS units include:
@@ -215,7 +215,7 @@ h1{
         - absolute: Elements are positioned relative to their nearest positioned ancestor (an ancestor with a position other than static). If there is no such ancestor, they are positioned relative to the initial containing block (usually the viewport). You can use top, bottom, left, and right properties to specify their exact position.
         - fixed: Elements are positioned relative to the viewport and do not move when the page is scrolled. You can use top, bottom, left, and right properties to specify their exact position.
         - sticky: Elements are positioned based on the user's scroll position. They toggle between relative and fixed positioning depending on the scroll position.
-        
+
 12. Table
      is a structured way to display data in rows and columns on a web page. It is created using the `<table>` element in HTML, along with various sub-elements to define the structure and content of the table. Some of the key elements used in creating tables include:
         - `<table>`: The main container for the table.
