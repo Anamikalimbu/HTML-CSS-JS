@@ -180,7 +180,7 @@ h1{
 
 8. Units
      are used in CSS to specify the size, length, or distance of various properties. They help define the dimensions and spacing of elements on a web page. Some common CSS units include:
-     
+
           - Absolute Units: These units are fixed and do not change based on the context. Examples include:
 
              - px (pixels): A pixel is a unit of measurement that represents a single point on the screen. It is commonly used for defining font sizes, margins, and other dimensions.
@@ -196,6 +196,7 @@ h1{
 
 9. Pseudo-class
      is a keyword added to selectors that specifies a special state of the selected elements. It allows you to apply styles to elements based on their state or position in the document tree. Some common pseudo-classes include:
+
      - :hover: Applies styles when the user hovers over an element with a pointing device (e.g., mouse).
      - :active: Applies styles when an element is being activated (e.g., clicked).
      - :focus: Applies styles when an element has focus (e.g., when a user clicks on an input field or navigates to it using the keyboard).
@@ -205,6 +206,7 @@ h1{
 
 10. Overflow
      is a CSS property that controls how content that exceeds the dimensions of its container is handled. It allows you to specify whether the content should be clipped, hidden, or scrollable. The overflow property can take the following values:
+
         - visible: This is the default value. Content that exceeds the container's dimensions will be visible and may overflow outside of the container.
         - hidden: Content that exceeds the container's dimensions will be clipped and hidden from view. The overflowed content will not be accessible or visible.
         - scroll: Content that exceeds the container's dimensions will be clipped, but scrollbars will be added to allow users to scroll through the hidden content.
@@ -212,6 +214,7 @@ h1{
 
 11. Position
      is a CSS property that specifies how an element is positioned in the document. It allows you to control the layout and placement of elements on a web page. The position property can take the following values:
+
         - static: This is the default value. Elements are positioned according to the normal flow of the document, and they are not affected by top, bottom, left, or right properties.
         - relative: Elements are positioned relative to their normal position in the document flow. You can use top, bottom, left, and right properties to adjust their position.
         - absolute: Elements are positioned relative to their nearest positioned ancestor (an ancestor with a position other than static). If there is no such ancestor, they are positioned relative to the initial containing block (usually the viewport). You can use top, bottom, left, and right properties to specify their exact position.
@@ -220,6 +223,7 @@ h1{
 
 12. Table
      is a structured way to display data in rows and columns on a web page. It is created using the `<table>` element in HTML, along with various sub-elements to define the structure and content of the table. Some of the key elements used in creating tables include:
+     
         - `<table>`: The main container for the table.
         - `<tr>`: Represents a table row.
         - `<td>`: Represents a table cell that contains data.
