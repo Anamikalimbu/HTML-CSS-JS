@@ -180,17 +180,18 @@ h1{
 
 8. Units
      are used in CSS to specify the size, length, or distance of various properties. They help define the dimensions and spacing of elements on a web page. Some common CSS units include:
-         - Absolute Units: These units are fixed and do not change based on the context. Examples include:
-         - px (pixels): A pixel is a unit of measurement that represents a single point on the screen. It is commonly used for defining font sizes, margins, and other dimensions.
-         - cm (centimeters): A centimeter is a unit of measurement that represents a physical length. It is less commonly used in web design but can be useful for print stylesheets.
-         - mm (millimeters): A millimeter is a unit of measurement that represents a physical  length. Like centimeters, it is less commonly used in web design.
-         - in (inches): An inch is a unit of measurement that represents a physical length. It is also less commonly used in web design.
-         - pt (points): A point is a unit of measurement that represents 1/72 of an inch. It is commonly used in typography for defining font sizes.
-         - pc (picas): A pica is a unit of measurement that represents 12 points or 1/6 of an inch. It is also used in typography but is less common in web design.
-         - Relative Units: These units are relative to the context in which they are used. Examples include:
-         - em: An em is a relative unit that is based on the font size of the  element. 1em is equal to the current font size, so if the font size is 16px, then 1em would be 16px.
-         - rem: A rem is a relative unit that is based on the font size of the root element (usually the `html` element). 1rem is equal to the font size of the root element, so if the root font size is 16px, then 1rem would be 16px.
-         - % (percentage): A percentage is a relative unit that is based on the size of the parent element. For example, if you set the width of an element to 50%, it will take up half the width of its parent container.
+          - Absolute Units: These units are fixed and do not change based on the context. Examples include:
+
+             - px (pixels): A pixel is a unit of measurement that represents a single point on the screen. It is commonly used for defining font sizes, margins, and other dimensions.
+             - cm (centimeters): A centimeter is a unit of measurement that represents a physical length. It is less commonly used in web design but can be useful for print stylesheets.
+             - mm (millimeters): A millimeter is a unit of measurement that represents a physical  length. Like centimeters, it is less commonly used in web design.
+             - in (inches): An inch is a unit of measurement that represents a physical length. It is also less commonly used in web design.
+             - pt (points): A point is a unit of measurement that represents 1/72 of an inch. It is commonly used in typography for defining font sizes.
+             - pc (picas): A pica is a unit of measurement that represents 12 points or 1/6 of an inch. It is also used in typography but is less common in web design.
+             - Relative Units: These units are relative to the context in which they are used. Examples include:
+             - em: An em is a relative unit that is based on the font size of the  element. 1em is equal to the current font size, so if the font size is 16px, then 1em would be 16px.
+             - rem: A rem is a relative unit that is based on the font size of the root element (usually the `html` element). 1rem is equal to the font size of the root element, so if the root font size is 16px, then 1rem would be 16px.
+             - % (percentage): A percentage is a relative unit that is based on the size of the parent element. For example, if you set the width of an element to 50%, it will take up half the width of its parent container.
 
 9. Pseudo-class
      is a keyword added to selectors that specifies a special state of the selected elements. It allows you to apply styles to elements based on their state or position in the document tree. Some common pseudo-classes include:
