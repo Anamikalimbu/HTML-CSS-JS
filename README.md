@@ -172,11 +172,59 @@ h1{
 6. Flex
      is a one-dimensional layout system in CSS that allows you to create flexible and responsive web designs. It provides a way to arrange elements in a container, either horizontally or vertically, and control their alignment, spacing, and distribution. 
      With CSS Flexbox, you can easily create complex layouts that adapt to different screen sizes and devices, making it an essential tool for modern web development.
+
 7. List
    is a fundamental part of HTML and CSS that allows you to create structured and organized content on web pages. Lists are used to group related items together, making it easier for users to read and understand the information presented.
 - list-style-type: "disc", "circle", "square", "decimal", "lower-alpha", "upper-alpha"
 - list-style-position: "inside", "outside"
 
+8. Units
+     are used in CSS to specify the size, length, or distance of various properties. They help define the dimensions and spacing of elements on a web page. Some common CSS units include:
+         - Absolute Units: These units are fixed and do not change based on the context. Examples include:
+         - px (pixels): A pixel is a unit of measurement that represents a single point on the screen. It is commonly used for defining font sizes, margins, and other dimensions.
+         - cm (centimeters): A centimeter is a unit of measurement that represents a physical length. It is less commonly used in web design but can be useful for print stylesheets.
+         - mm (millimeters): A millimeter is a unit of measurement that represents a physical  length. Like centimeters, it is less commonly used in web design.
+         - in (inches): An inch is a unit of measurement that represents a physical length. It is also less commonly used in web design.
+         - pt (points): A point is a unit of measurement that represents 1/72 of an inch. It is commonly used in typography for defining font sizes.
+         - pc (picas): A pica is a unit of measurement that represents 12 points or 1/6 of an inch. It is also used in typography but is less common in web design.
+         - Relative Units: These units are relative to the context in which they are used. Examples include:
+         - em: An em is a relative unit that is based on the font size of the  element. 1em is equal to the current font size, so if the font size is 16px, then 1em would be 16px.
+         - rem: A rem is a relative unit that is based on the font size of the root element (usually the `html` element). 1rem is equal to the font size of the root element, so if the root font size is 16px, then 1rem would be 16px.
+         - % (percentage): A percentage is a relative unit that is based on the size of the parent element. For example, if you set the width of an element to 50%, it will take up half the width of its parent container.
+
+9. Pseudo-class
+     is a keyword added to selectors that specifies a special state of the selected elements. It allows you to apply styles to elements based on their state or position in the document tree. Some common pseudo-classes include:
+     - :hover: Applies styles when the user hovers over an element with a pointing device (e.g., mouse).
+     - :active: Applies styles when an element is being activated (e.g., clicked).
+     - :focus: Applies styles when an element has focus (e.g., when a user clicks on an input field or navigates to it using the keyboard).
+     - :nth-child(n): Applies styles to the nth child of a parent element.
+     - :first-child: Applies styles to the first child of a parent element.
+     - :last-child: Applies styles to the last child of a parent element.
+
+10. Overflow
+     is a CSS property that controls how content that exceeds the dimensions of its container is handled. It allows you to specify whether the content should be clipped, hidden, or scrollable. The overflow property can take the following values:
+        - visible: This is the default value. Content that exceeds the container's dimensions will be visible and may overflow outside of the container.
+        - hidden: Content that exceeds the container's dimensions will be clipped and hidden from view. The overflowed content will not be accessible or visible.
+        - scroll: Content that exceeds the container's dimensions will be clipped, but scrollbars will be added to allow users to scroll through the hidden content.
+        - auto: If the content exceeds the container's dimensions, scrollbars will be added only if necessary. If the content fits within the container, no scrollbars will be displayed.
+
+11. Position
+     is a CSS property that specifies how an element is positioned in the document. It allows you to control the layout and placement of elements on a web page. The position property can take the following values:
+        - static: This is the default value. Elements are positioned according to the normal flow of the document, and they are not affected by top, bottom, left, or right properties.
+        - relative: Elements are positioned relative to their normal position in the document flow. You can use top, bottom, left, and right properties to adjust their position.
+        - absolute: Elements are positioned relative to their nearest positioned ancestor (an ancestor with a position other than static). If there is no such ancestor, they are positioned relative to the initial containing block (usually the viewport). You can use top, bottom, left, and right properties to specify their exact position.
+        - fixed: Elements are positioned relative to the viewport and do not move when the page is scrolled. You can use top, bottom, left, and right properties to specify their exact position.
+        - sticky: Elements are positioned based on the user's scroll position. They toggle between relative and fixed positioning depending on the scroll position.
+        
+12. Table
+     is a structured way to display data in rows and columns on a web page. It is created using the `<table>` element in HTML, along with various sub-elements to define the structure and content of the table. Some of the key elements used in creating tables include:
+        - `<table>`: The main container for the table.
+        - `<tr>`: Represents a table row.
+        - `<td>`: Represents a table cell that contains data.
+        - `<th>`: Represents a table header cell, which is typically used for column or row headers.
+        - `<thead>`: Groups the header content of the table.
+        - `<tbody>`: Groups the body content of the table.
+        - `<tfoot>`: Groups the footer content of the table.
 
 # Grid
    is a powerful layout system in CSS that allows you to create complex and responsive web designs with ease. It provides a two-dimensional grid-based layout system, enabling you to arrange elements in rows and columns. 
