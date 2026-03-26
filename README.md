@@ -180,6 +180,7 @@ h1{
 
 8. Units
      are used in CSS to specify the size, length, or distance of various properties. They help define the dimensions and spacing of elements on a web page. Some common CSS units include:
+     
           - Absolute Units: These units are fixed and do not change based on the context. Examples include:
 
              - px (pixels): A pixel is a unit of measurement that represents a single point on the screen. It is commonly used for defining font sizes, margins, and other dimensions.
