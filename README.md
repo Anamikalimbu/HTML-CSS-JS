@@ -1,8 +1,4 @@
-# HTML-CSS-JS
-   - HTML, CSS, and JavaScript are the three core technologies used to create and design websites.
-   - HTML (Hypertext Markup Language) is used to structure the content of a web page, defining elements such as headings, paragraphs, links, images, and more.
-   - CSS (Cascading Style Sheets) is used to control the presentation and layout of a web page, allowing you to apply styles such as colors, fonts, spacing, and positioning to HTML elements.
-   - JavaScript is a programming language that enables interactivity and dynamic behavior on web pages, allowing you to create features such as form validation, animations, and interactive elements.
+#HTML/CSS/JS
 
 ## Web
 - WWW: World Wide Web
@@ -172,7 +168,7 @@ h1{
 6. Flex
      is a one-dimensional layout system in CSS that allows you to create flexible and responsive web designs. It provides a way to arrange elements in a container, either horizontally or vertically, and control their alignment, spacing, and distribution. 
      With CSS Flexbox, you can easily create complex layouts that adapt to different screen sizes and devices, making it an essential tool for modern web development.
-
+     
 7. List
    is a fundamental part of HTML and CSS that allows you to create structured and organized content on web pages. Lists are used to group related items together, making it easier for users to read and understand the information presented.
      - list-style-type: "disc", "circle", "square", "decimal", "lower-alpha", "upper-alpha"
@@ -231,6 +227,45 @@ h1{
         - `<thead>`: Groups the header content of the table.
         - `<tbody>`: Groups the body content of the table.
         - `<tfoot>`: Groups the footer content of the table.
+
+13. Form
+     is a fundamental part of HTML and CSS that allows you to create interactive and user-friendly web pages. Forms are used to collect user input and submit it to a server for processing. They can include various types of input fields, such as text boxes, checkboxes, radio buttons, dropdown menus, and more. Some of the key elements used in creating forms include:
+     
+        - `<form>`: The main container for the form.
+        - `<input>`: Represents an input field where users can enter data. It can have different types, such as text, password, email, submit, button, tel, checkbox, radio, number, url, search, range, date, time, color etc.
+        - `<label>`: Provides a label for an input field to improve accessibility and usability.
+        - `<textarea>`: Represents a multi-line text input field for longer text entries.
+        - `<select>`: Represents a dropdown menu that allows users to select one or more options from a list.
+        - `<option>`: Represents an individual option within a `<select>` element.
+
+14. Icon
+     is a graphical representation or symbol that is used to convey meaning or represent an action on a web page. Icons are often used to enhance the user interface and improve the overall user experience. They can be created using various methods, such as using images, SVG (Scalable Vector Graphics), or icon fonts. Some popular icon libraries include Font Awesome, Material Icons, and Ionicons, which provide a wide range of pre-designed icons that can be easily integrated into web projects.
+
+15. Background images
+     are images that are set as the background of an HTML element using CSS. They can be used to enhance the visual appeal of a web page and create a more engaging user experience. The `background-image` property in CSS is used to specify the URL of the image that you want to use as the background. You can also use additional properties such as `background-size`, `background-position`, and `background-repeat` to control how the background image is displayed within the element. Background images can be applied to various elements, including the entire page, specific sections, or individual components, allowing for a wide range of design possibilities.
+
+16. Transform
+     is a CSS property that allows you to rotate, scale, skew, or translate an element in 2D or 3D space. It is commonly used to create dynamic and interactive effects on web pages.
+
+17. z-index
+     is a CSS property that controls the stacking order of elements on a web page. It determines which elements are displayed in front of or behind others when they overlap. The z-index property can take integer values, where higher values indicate that an element should be displayed in front of elements with lower values. Elements with the same z-index value will be stacked according to their order in the HTML document, with later elements appearing in front of earlier ones. The z-index property only works on positioned elements (those with a position value of relative, absolute, fixed, or sticky) and does not affect elements with a position of static (the default).
+
+18. Transition
+     is a CSS property that allows you to create smooth and gradual changes between different states of an element. It enables you to specify the duration, timing function, and properties that should be transitioned when an element's state changes. By using transitions, you can enhance the user experience by providing visual feedback and making interactions more engaging. For example, you can use transitions to animate the color change of a button when it is hovered over or to smoothly expand a dropdown menu when it is clicked. The transition property can be applied to various CSS properties, such as color, background-color, width, height, opacity, and more, allowing for a wide range of creative possibilities in web design.
+
+19. Cursor
+     is a CSS property that specifies the type of cursor to be displayed when the mouse pointer is over an element. It allows you to change the appearance of the cursor to provide visual feedback to users and enhance the user experience. Some common cursor values include:
+
+        - default: The default cursor, typically an arrow.
+        - pointer: A hand cursor, often used to indicate a clickable element (e.g., links or buttons).
+        - text: An I-beam cursor, used to indicate that text can be selected or edited.
+        - move: A cursor that indicates an element can be moved.
+        - not-allowed: A cursor that indicates an action is not allowed (e.g., when hovering over a disabled button).
+        - wait: A cursor that indicates the user should wait (e.g., when a process is loading).
+        - crosshair: A crosshair cursor, often used for precision selection.
+
+  
+
 
 # Grid
    is a powerful layout system in CSS that allows you to create complex and responsive web designs with ease. It provides a two-dimensional grid-based layout system, enabling you to arrange elements in rows and columns. 
