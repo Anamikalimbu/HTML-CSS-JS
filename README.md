@@ -264,7 +264,11 @@ h1{
         - wait: A cursor that indicates the user should wait (e.g., when a process is loading).
         - crosshair: A crosshair cursor, often used for precision selection.
 
-  
+20. Animation
+     is a CSS property that allows you to create dynamic and engaging visual effects on web pages. It enables you to define keyframes that specify the intermediate steps of an animation, as well as the duration, timing function, and other properties that control how the animation behaves. By using animations, you can enhance the user experience by providing visual feedback, drawing attention to important elements, and making interactions more enjoyable. For example, you can use animations to create a fade-in effect for images, a sliding effect for menus, or a bouncing effect for buttons. The animation property can be applied to various CSS properties, such as opacity, transform, color, and more, allowing for a wide range of creative possibilities in web design.
+
+21. Responsive design
+     is an approach to web design that aims to create websites that provide an optimal viewing experience across a wide range of devices and screen sizes. It involves using flexible layouts, images, and CSS media queries to adapt the design and content of a website based on the characteristics of the user's device. Responsive design allows websites to be easily accessible and usable on desktops, laptops, tablets, and smartphones without the need for separate versions of the site. By implementing responsive design principles, you can ensure that your website looks great and functions well for all users, regardless of the device they are using to access it.
 
 
 # Grid
