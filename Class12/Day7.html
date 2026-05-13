@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form validation</title>
+</head>
+<body>
+    <form method="get" action="">
+        <span>Name:</span>
+        <input type="text" id="name"> <br> <br>
+        <span>Address:</span>
+        <select name="select your city" id="address" placeholder="Select your city">
+            <option value="">Dharan</option>
+            <option value="">Itahri</option>
+            <option value="">Kathmandu</option>
+            <option value="">Pokhara</option>
+        </select> <br> <br>
+        <span>Phone:</span>
+        <input type="text" id="phone"> <br> <br>
+        <span>Email:</span>
+        <input type="text" id="email"> <br> <br>
+        <span>Gender</span>
+        <input type="radio" id="r1">Male
+        <input type="radio" id="r2">Female
+        <br> <br>
+        <input type="submit" onclick="Valid()">
+        <input type="submit" onclick="clear()">
+        
+    </form>
+    <script>
+        function valid(){
+            var name = document.getElementById("name").value;
+            var address = document.getElementById("address").value;
+            var phone = document.getElementById("phone").value;
+            var email = document.getElementById("email").value;
+            var gender = document.getElementById("gender").value;
+
+            if(name == "" && address == "" && phone == "" && email == "" && gender ==""){
+
+                alert("please !! fillup address");
+
+
+            }
+        }
+    </script>
+</body>
+</html> 

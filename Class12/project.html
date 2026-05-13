@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form Example</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+        }
+        form {
+            max-width: 400px;
+            margin: auto;
+        }
+        label {
+            display: block;
+            margin: 10px 0 5px;
+        }
+        input {
+            width: 100%;
+            padding: 10px;
+            margin-bottom: 10px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+        .error {
+            color: red;
+            font-size: 0.9em;
+        }
+    </style>
+</head>
+<body>
+    <h1>Form  Validation</h1>
+    <form id="myForm">
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" placeholder="Enter your name">
+        <span id="nameError" class="error"></span>
+
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" placeholder="Enter your email">
+        <span id="emailError" class="error"></span>
+
+        <label for="password">Password:</label>
+        <input id="password" name="password" placeholder="Enter your password"></input>
+        <span id="passwordError" class="error"></span>
+
+        <input type="button" value="submit" id="submit" onclick="validateForm()"></input>
+        <input type="button" value="cancle" id="cancle" onclick="cancle()">
+    </form>
+
+    <script>
+        function validateForm() {
+            // Clear previous errors
+            document.getElementById("nameError").value;
+            document.getElementById("emailError").value;
+            document.getElementById("passwordError").value;
+
+            // Get form values
+            var name = document.getElementById("name").value;
+            var email = document.getElementById("email").value;
+            var password = document.getElementById("password").value;
+
+            let isValid = true;
+
+            // Validate name
+            if (!name) {
+                document.getElementById("nameError").innerText = "Name is required.";
+                isValid = false;
+            }
+
+            // Validate email
+            
+            if (!email) {
+                document.getElementById("emailError").innerText = "Email is required.";
+                isValid = false;
+            } else if (!emailRegex.test(email)) {
+                document.getElementById("emailError").innerText = "Enter a valid email.";
+                isValid = false;
+            }
+
+            // Validate password
+            if (!password) {
+                document.getElementById("passwordError").innerText = "password is required.";
+                isValid = false;
+            }
+
+        }
+        function cancle(){
+           // Clear the input fields
+            document.getElementById("name").value="";
+            document.getElementById("email").value="";
+            document.getElementById("password").value="";
+             // Clear the displayed output
+             document.getElementById('output').innerHTML = '';
+
+             // Optionally, display a message 
+            alert("Form has been cleared!");
+        }
+    </script>
+</body>
+</html>

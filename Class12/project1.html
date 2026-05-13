@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form with Cancel Button</title>
+</head>
+<body>
+    <h1>Form with Cancel Option</h1>
+    <form id="simpleForm">
+        <label for="username">Name:</label><br>
+        <input type="text" id="username" name="username"><br><br>
+
+        <label for="useremail">Email:</label><br>
+        <input type="email" id="useremail" name="useremail"><br><br>
+
+        <button type="button" onclick="submitForm()">Submit</button>
+        <button type="button" onclick="cancelForm()">Cancel</button>
+    </form>
+
+    <h2>Submitted Data:</h2>
+    <div id="output"></div>
+
+    <script>
+        // Function to handle form submission
+        function submitForm() {
+            const name = document.getElementById('username').value;
+            const email = document.getElementById('useremail').value;
+
+            if (!name || !email) {
+                alert("Please fill out all fields!");
+                return;
+            }
+
+            document.getElementById('output').innerHTML = `
+                <p><strong>Name:</strong> ${name}</p>
+                <p><strong>Email:</strong> ${email}</p>
+            `;
+        }
+
+        // Function to clear the form and reset everything
+        function cancelForm() {
+            // Clear the input fields
+            document.getElementById('username').value = '';
+            document.getElementById('useremail').value = '';
+
+            // Clear the displayed output
+            document.getElementById('output').innerHTML = '';
+
+            // Optionally, display a message
+            alert("Form has been cleared!");
+        }
+    </script>
+</body>
+</html>
