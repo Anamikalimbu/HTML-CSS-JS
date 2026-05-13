@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Form Validation</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="form-container">
+    <h2>Registration Form</h2>
+    <form id="registrationForm" novalidate>
+      <label for="username">Name:</label>
+      <input type="text" id="username" name="username" placeholder="Enter your Name">
+      <small class="error-message" id="usernameError">Name is required.</small>
+
+      <label for="email">Email:</label>
+      <input type="email" id="email" name="email" placeholder="Enter your email">
+      <small class="error-message" id="emailError">Email is required.</small>
+
+      <label for="phone">Phone number:</label>
+      <input type="text" id="phone" name="phone" placeholder="Enter your Phone number">
+      <small class="error-message" id="phoneError">Phone number is required.</small>
+
+      <label for="address">Address:</label>
+      <input type="text" id="address" name="address" placeholder="Enter your address">
+      <small class="error-message" id="addressError">Address is required.</small>
+
+      <label for="school">School name:</label>
+      <input type="text" id="school" name="school" placeholder="Enter your School name">
+      <small class="error-message" id="schoolError">School nameis required.</small>
+
+      <div class="button-group">
+        <button type="submit" id="submitBtn">Submit</button>
+        <button type="button" id="cancelBtn">Cancel</button>
+      </div>
+    </form>
+    <div id="message"></div>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
